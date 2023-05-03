@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.head {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+
+.head span {
+    padding: 30px;
+    margin: 10px;
+}
+
+.profile {
+    height: 70%;
+    padding-top: 2.6%;
+    padding-left: 40px;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.number .email {
+    font-size: 1rem;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 850px;
+}
+ .tabs div {
+    padding: 20px;
+}
+
+.tabs div:hover {
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.email, .number {
+    font-style: italic;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.intro {
+    width: 1000px;
+    height: 350px;
+}
+
+.intro img {
+    display: inline-block;
+    float: left;
+    height: 350px;
+    width: 500px;
+}
+
+.des h1 {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    font-size: 2rem;
+    color: blueviolet;
+    padding: 30px;
+    padding-right: 40px;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    color: gray;
+    padding: 30px;
+    padding-top: 80px;   
+    padding-left: 33.2rem;
+}
+
+.skills h1 {    
+    font-size: 2rem;
+    color: blueviolet;
+    padding: 40px;
+}
+
+.skillbox {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    box-shadow: 0 3px 10px gray;
+}
+
+.skills img {
+    height: 39%;
+    width: 39%;
+    padding: 30%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.htmls div {
+    position: relative;
+    left: 40%;
+    padding-top: 7%;
+}
+
+.years {
+    position: relative;
+    padding-top: 10%;
+    margin-left: -25%;
+}
+
+.css img {
+    width: 32%;
+    padding-left: 32%;
+} 
+
+.java img {
+    width: 70%;
+    padding-left: 14%;
+} 
+
+.title-style {
+    font-size: 2rem;
+    color: blueviolet;
+    padding: 40px;
+}
+
+.project-cont {
+    padding-left: 80px;
+}
+
+.project-cont h2 {
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+}
+
+.project-cont .content {
+    padding-left: 60px;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.recommendations .container{
+    height: 400px;
+    width: 1400px;
+    margin-left: 90px;
+}
+
+.rec-box {
+    display: flex;
+    float: left;
+    height: 160px;
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    font-style: italic;
+    border-radius: 5%;
+    border: 2px solid rgb(167, 156, 156);
+}
+
+.comment {
+    height: 600px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.comment h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.comment input {
+    display: flex;
+    display:block;
+    margin: 10px;
+    margin-left: 35%;
+
+}
+
+.comment-name {
+    padding: 5px;
+    width: 600px;
+}
+
+.comment .message {
+    padding: 5px;
+    margin-top: 5px;
+    width: 600px;
+    height: 400px;
+    text-align:initial;
+}
